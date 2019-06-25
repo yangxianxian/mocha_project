@@ -1,0 +1,25 @@
+{
+  "name": "mocha_project",
+  "version": "1.0.0",
+  "description": "user to test for mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/test.js",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangxianxian/mocha_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangxianxian/mocha_project/issues"
+  },
+  "homepage": "https://github.com/yangxianxian/mocha_project#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.1.4"
+  }
+}
